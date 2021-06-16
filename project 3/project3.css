@@ -1,0 +1,267 @@
+* {
+    font-family: sans-serif, 'Raleway';
+}
+
+header {
+    background-color: rgb(49, 54, 66);
+    height: 7vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 3.7vh;
+    font-size: 22px;
+}
+
+h2 {
+    margin:20px 0px 10px 0px ;
+}
+
+p {
+    margin:0px 0px 16px 0px ;
+}
+
+.newsletter {
+    padding: 0px 5px 10px 5px ;
+    text-align:center ;
+}
+
+.hr1 {
+    height: 3px;
+    background-color: black;
+}
+
+.hr2 {
+    height: 1px;
+    background-color: black;
+    margin-top: -6px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 360px;
+    padding: 5px;
+}
+
+#name::placeholder, #email::placeholder{
+    text-align: end;
+    margin-right: 5%;
+}
+
+#state::placeholder {
+    padding-left: 3%;
+}
+
+#state {
+    background-color: rgba(100, 98, 98, 0.137);
+    width: 100%;
+    border: none;
+}
+
+#state:focus {
+    background-color: white;
+}
+
+.fieldset1 {
+    border: 0;
+    padding: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldset1-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldset2 {
+    border: 0;
+    padding: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+    font-size: 20px;
+    margin: 20px 0px;
+    padding: 0;
+}
+
+#name, #email, #number, #state, #address, #city {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    height: 40px;
+}
+
+#zipcode {
+    width: 45%;
+    margin: 10px 0px 10px 0px;
+    height: 40px;
+}
+
+.hr3 {
+    height: 1px;
+    background-color: black;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: rgba(100, 98, 98, 0.137);
+    border: none;
+}
+
+input[type="text"] {
+    font-family: 'Raleway', sans-serif;
+}
+
+input:focus {
+    background-color: white;
+}
+
+textarea:focus {
+    background-color: white;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0px 4px 8px 0px;
+}
+
+.news-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.check-div {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+}
+
+.radio-div {
+    margin: 15px 0px;
+}
+
+.news-format {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    background-color: rgba(100, 98, 98, 0.137);
+    border: none;
+}
+
+.plain {
+    margin: 20px 0px 15px 0px ;
+}
+
+.html {
+    margin-right: 70%;
+}
+
+button {
+    margin-top: 25px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(86, 197, 197);
+    border-radius: 4%;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40vh;
+}
+
+@media screen and (min-width:768px) {
+    form {
+        margin-left: 15%;
+        width: 70%;
+        max-width: 100%;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+
+    .legend1 {
+        margin-left: 39%;
+    }
+
+    .legend2 {
+        margin-left: 42%;
+    }
+
+    .fieldset1-div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #name, #email, #number, #state, #address, #city {
+        width: 75%;
+    }
+
+    #name, #number, #email, #address, #city, #state {
+        width: 100%;
+    }
+
+    .name {
+        margin: 20px 52px 0px 0px;
+        width: 105px;
+    }
+
+    .number {
+        margin: 20px 19px 0px 0px;
+        width: 148px;
+    }
+
+    .email{
+        margin: 20px 24px 0px 0px;
+        width: 142px;
+    }
+
+    .address {
+        margin: 20px 21px 0px 0px;
+        width: 145px;
+    }
+
+    .city {
+        margin: 20px 97px 0px 0px;
+        width: 43px;
+    }
+
+    .state-label {
+        margin: 20px 88px 0px 0px;
+        border: none;
+        width: 53px;
+    }
+
+    .zipcode {
+        margin: 20px 62px 0px 0px;
+    }
+
+    #zipcode {
+        width: 25%;
+    }
+
+    header {
+        height: 6vh;
+    }
+
+    .newsletter {
+        margin-top: 7vh;
+    }
+
+    header {
+        padding-top: 3vh;
+        font-size: 20px;
+    }
+
+}
